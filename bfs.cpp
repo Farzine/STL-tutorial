@@ -4,7 +4,7 @@ using namespace std;
 const int N = 1e5+10;
 vector<int> a[N];
 bool vis[N];
-int level(N);
+int level[N];
 
 void bfs(int source)
 {
